@@ -2,6 +2,10 @@
 
 This app is a simple TODO List app built using Vue 3 with TypeScript and Vite. It uses localStorage to save persistent data.
 
+## Live Demo
+
+[Click here for live demo](https://tymoteusznachtman.github.io/todo-list/)
+
 ## Main Features
 
 - Create `Todo List`
