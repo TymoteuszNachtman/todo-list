@@ -16,7 +16,7 @@
                 <div :style="{whiteSpace: 'pre-wrap', overflowWrap: 'break-word'}">
                   <slot></slot>
                   <label for="listName" class="transition-colors duration-500 text-gray-900 dark:text-gray-200" :style="{whiteSpace: 'pre-wrap', overflowWrap: 'break-word'}">List Name: </label>
-                  <input type="text" name="listName" class="text-white p-2 rounded-md" 
+                  <input type="text" name="listName" class="bg-gray-600 text-white p-2 rounded-md" 
                     @keydown.enter="() => { emit('accept'); handleAccept(); }" 
                     v-model="newListName">
                   <div class="error text-red-500" v-if="errorMessage">{{ errorMessage }}</div>

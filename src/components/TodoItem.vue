@@ -2,7 +2,7 @@
   <div class="w-full grid grid-cols-[1fr_auto] items-center">
     <div class="max-w-sm grid grid-cols-[1fr_auto] items-center transition-colors duration-500 bg-neutral-100 dark:bg-gray-600 text-gray-600 dark:text-gray-50 hover:cursor-pointer rounded-lg mt-1 mb-1 p-2" :class="{'bg-neutral-300 dark:bg-gray-700': isDone}">
       <div class="w-full overflow-hidden" @click="emit('toggleDone')">
-        <div class="text max-w-sm inline" :style="{textDecoration: isDone ? 'line-through' : 'none', whiteSpace: 'normal', overflowWrap: 'break-word'}">
+        <div class="text text-black dark:text-white max-w-sm inline" :style="{textDecoration: isDone ? 'line-through' : 'none', whiteSpace: 'normal', overflowWrap: 'break-word'}">
           {{ title }}
         </div>
       </div>
